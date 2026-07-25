@@ -1,0 +1,8 @@
+interface:
+  display_name: "我的股票今天怎么了？"
+  short_description: "检查A股自选股最近变化，解释公告、财报、风险信号和重要日期"
+  brand_color: "#F59A3D"
+  default_prompt: "使用 $stock-watchlist-check-cn 检查我的A股自选股最近发生了什么，并列出证据和待关注日期。"
+
+policy:
+  allow_implicit_invocation: true
